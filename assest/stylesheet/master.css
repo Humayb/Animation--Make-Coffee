@@ -1,0 +1,207 @@
+.h-navbar {
+  background-color: rgb(17, 29, 244);
+}
+.h-navbar .brand {
+  font-weight: bold;
+}
+.h-navbar a {
+  color: #ededed;
+}
+.h-navbar a:hover {
+  color: #ffff97;
+}
+.h-navbar .h-toggler {
+  color: #ffff97;
+}
+
+.h-menu-button {
+  background-color: rgb(30, 0, 77);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.3764705882);
+}
+.h-menu-button a {
+  color: #ededed;
+  font-size: 16px;
+}
+.h-menu-button a:hover {
+  color: #ffff97;
+  font-weight: bold;
+}
+.h-menu-button span {
+  color: #ededed;
+  font-size: 20px;
+}
+
+.h-sec1 {
+  background: linear-gradient(180deg, rgb(17, 29, 244) 0%, rgb(33, 57, 158) 60%);
+  padding: 8vh 0;
+  color: rgb(245, 245, 245);
+}
+.h-sec1 h1 {
+  color: #ffff97;
+}
+.h-sec1 .btn-buy {
+  width: 160px;
+}
+.h-sec1 .h-play {
+  padding-left: 20px;
+}
+
+.sticky-top {
+  padding: 2vh 0;
+  background-color: rgb(30, 0, 77);
+  box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.2117647059);
+}
+.sticky-top .h-sticky-top-left .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sticky-top .h-sticky-top-left .nav a {
+  position: relative;
+  color: rgb(245, 245, 245);
+}
+.sticky-top .h-sticky-top-left .nav a::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  border-radius: 4px;
+  background-color: #feff97;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+.sticky-top .h-sticky-top-left .nav a:hover {
+  color: #ffff97;
+  font-weight: bold;
+}
+.sticky-top .h-sticky-top-left .nav a:hover::after {
+  transform: scaleX(1);
+}
+.sticky-top li:nth-of-type(1) {
+  padding: 5px 10px;
+  color: rgb(190, 190, 190);
+  font-weight: bold;
+}
+
+.section-currency {
+  padding: 10vh 0;
+  background-color: #f2f2f2;
+}
+
+.section-course {
+  padding: 10vh 0;
+}
+.section-course .course {
+  text-align: center;
+}
+.section-course .course .item-course {
+  display: inline-block;
+  margin-right: 60PX;
+  margin-top: 5vh;
+}
+.section-course .course .item-course h5 {
+  margin-top: 2vh;
+}
+
+.sec-form {
+  padding: 6vh 0;
+  background-color: #f2f2f2;
+}
+.sec-form .form {
+  position: relative;
+}
+.sec-form .form .form-request {
+  position: absolute;
+  background-color: rgb(33, 57, 158);
+  color: #ededed;
+  top: -90px;
+  width: 500px;
+  height: 580px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: -3px 6px 8px rgba(0, 0, 0, 0.33);
+}
+.sec-form .form .form-request .item-form {
+  top: 40px;
+  height: 24px;
+  padding: 2vh 2vw;
+}
+.sec-form .form .form-request .item-form #request {
+  color: #ffff97;
+  font-weight: bold;
+}
+.sec-form .form .form-request .item-form .h-box-form {
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.sec-form .form .form-request .item-form .h-box-form ::-moz-placeholder {
+  color: #ededed;
+}
+.sec-form .form .form-request .item-form .h-box-form :-ms-input-placeholder {
+  color: #ededed;
+}
+.sec-form .form .form-request .item-form .h-box-form ::placeholder {
+  color: #ededed;
+}
+.sec-form .form .form-request .item-form .h-box-form .form-control {
+  background-color: rgb(33, 57, 158);
+}
+.sec-form .form .form-request .item-form .h-box-form .h-input-form {
+  height: 72px;
+  background-color: rgb(33, 57, 158);
+  color: #ededed;
+}
+.sec-form .form .form-request .item-form .h-box-form .h-input-form :disabled {
+  color: rgb(190, 190, 190);
+}
+.sec-form .form .form-request .item-form .btn-buy {
+  width: 120px;
+}
+.sec-form .accordion {
+  margin-top: 4vh;
+  background-color: #ededed;
+}
+.sec-form .accordion .accordion-body {
+  background-color: #ededed;
+}
+.sec-form .accordion .acc-button {
+  color: #1e3593;
+  font-size: 16px;
+  font-weight: bold;
+}
+.sec-form .accordion .acc-button:not(.collapsed) {
+  color: #1e3593;
+}
+.sec-form .accordion .acc-button .accordion-button:focus {
+  border: none;
+}
+
+.section-corporates {
+  padding: 20vh 0;
+}
+.section-corporates h2 {
+  justify-content: center;
+}
+
+.footer {
+  background-color: rgb(33, 57, 158);
+  color: #ededed;
+  padding: 5vh;
+}
+.footer .text .footer-title {
+  font-weight: bold;
+  margin-bottom: 56px;
+}
+.footer .text p {
+  padding-right: 5vh;
+}
+.footer .item-footer a {
+  color: #a4ee5d;
+}
+.footer .item-footer a:hover {
+  color: #feff97;
+}/*# sourceMappingURL=master.css.map */

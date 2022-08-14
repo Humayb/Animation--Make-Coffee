@@ -1,0 +1,267 @@
+.h-navbar {
+  background-color: rgba(17 ,29 ,244 ,1);
+  .brand{
+    font-weight: bold;
+  }
+  a{
+    color: #ededed;
+    &:hover{
+      color: #ffff97;
+    }
+  }
+  .h-toggler{
+    color: #ffff97;
+  }
+
+}
+  // =============== >> Fixed Menu button-mobile  << ===============
+
+.h-menu-button{
+  background-color: rgb(30, 0, 77);
+  box-shadow: 0px 0px 3px 0px #00000060;
+  a{
+    color: #ededed;
+    font-size: 16px;
+    &:hover{
+      color: #ffff97;
+      font-weight: bold;
+    }
+  }
+  span{
+    color: #ededed;
+    font-size: 20px;
+  }
+}
+
+
+
+  // =============== >> Section 1 << ===============
+
+
+.h-sec1{
+    background: linear-gradient(180deg, rgba(17,29,244,1) 0%, rgba(33,57,158,1) 60%);
+    padding: 8vh 0;
+    color: rgb(245, 245, 245);
+
+    h1{
+      color:#ffff97;
+    }
+    .btn-buy{
+      width: 160px;
+    }
+
+    .h-play{
+      padding-left: 20px;
+    }
+  }
+
+  // =============== >> Sticky Menu << ===============
+
+  .sticky-top{
+    padding: 2vh 0;
+    background-color: rgb(30, 0, 77);
+    box-shadow: 0 3px 3px 0px #00000036;
+
+    .h-sticky-top-left{
+      .nav{
+          display: flex;
+          flex-wrap: nowrap;
+          white-space:nowrap;
+          overflow: hidden;
+
+        a{
+            position: relative;
+            color: rgb(245, 245, 245);
+
+            &::after{
+              content: "";
+              width: 100%;
+              height: 3px;
+              border-radius: 4px;
+              background-color: #feff97;
+              position: absolute;
+              left: 0;
+              bottom: -10px;
+              transform: scaleX(0);
+              transform-origin: left;
+              transition: transform .25s ease;        
+            }
+  
+          &:hover{
+              color:#ffff97;
+              font-weight: bold;
+
+              &::after{
+                transform: scaleX(1);
+              }
+            }
+          
+          }
+        }
+      
+      }
+
+
+
+    li:nth-of-type(1){
+      padding: 5px 10px;
+      color: rgb(190, 190, 190);
+      font-weight: bold;
+    }
+    
+  }
+// =============== >> section-currency << ===============
+  .section-currency{
+    padding: 10vh 0;
+    background-color: #f2f2f2;
+  }
+
+
+  // =============== >> section-course << ===============
+  .section-course{
+    padding: 10vh 0;
+
+    .course{
+      text-align: center;
+      .item-course{
+        display: inline-block;
+        margin-right: 60PX;
+        margin-top: 5vh;
+
+        h5{
+          margin-top: 2vh;
+        }
+      }
+    }
+   
+  }
+
+    // =============== >> form -left << ===============
+  .sec-form{
+    padding: 6vh 0;
+    background-color: #f2f2f2;
+
+
+    
+    .form{
+      position: relative;
+
+      .form-request{
+        position: absolute;
+        background-color: rgba(33,57,158,1);
+        color:#ededed ;
+        top:-90px;
+        width: 500px;
+        height:580px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: -3px 6px 8px rgb(0,0,0,0.33);
+  
+        .item-form{
+          // position: relative;
+          top: 40px;
+          height: 24px;
+          padding: 2vh 2vw;
+ 
+          #request{
+            color: #ffff97;
+            font-weight: bold;
+          }
+  
+          .h-box-form{
+            border-radius: 15px;
+            margin-top: 20px;
+
+           
+            ::placeholder{
+              color: #ededed;
+            }
+
+            .form-control{
+              background-color: rgba(33,57,158,1);
+            }
+  
+            .h-input-form{
+              height: 72px;
+              background-color: rgba(33,57,158,1);
+              color: #ededed;
+              
+              :disabled{
+                color: rgb(190, 190, 190);
+              }
+            }
+          }
+          .btn-buy{
+            width: 120px;
+          }
+
+        }
+      } 
+    }
+      // =============== >> section-corporates-acco<< ===============
+  .accordion{ 
+    margin-top: 4vh;
+    background-color: #ededed;
+
+    .accordion-body{
+      background-color: #ededed;
+    }
+      .acc-button{
+        color:  #1e3593;
+        font-size: 16px;
+        font-weight: bold;
+
+        &:not(.collapsed){
+          color:  #1e3593;
+        }
+
+        .accordion-button:focus{
+          // background-color: #ededed;
+          border: none;
+          // $bs-accordion-active-bg:#dbfcbc;
+        }
+      }
+  }
+  }
+
+    // =============== >> section-corporates<< ===============
+.section-corporates{
+  padding: 20vh 0;
+  h2{
+    justify-content: center;
+  }
+
+
+}
+
+
+    // =============== >> Footer << ===============
+
+    .footer{
+      background-color: rgba(33,57,158,1);
+	    color:#ededed ;
+	    padding: 5vh;
+
+      .text{
+        .footer-title{
+          font-weight: bold;
+          margin-bottom: 56px;
+        }
+        p{
+          padding-right: 5vh;
+        }
+      }
+
+    
+
+      .item-footer{
+        a{
+          color: #a4ee5d;
+
+          &:hover{
+            color: #feff97;
+          }
+        }
+  
+      }
+}

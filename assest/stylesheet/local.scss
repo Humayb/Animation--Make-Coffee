@@ -1,0 +1,121 @@
+@media screen and (max-width: 576px){
+  
+  h1{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    font-size: 40px;
+    }
+
+    h2{
+        font-family: Roboto-Bold;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    h3{
+        font-family: Roboto-Bold;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    h4{
+        font-family: Roboto-Bold;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    h5{
+        font-family: Roboto-Bold;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    p{
+        margin: 4vh 0;
+        font-size: 14px;
+    }
+
+    .section-course{
+        .course{
+            text-align: center;
+            padding: 0;
+            margin: 0;
+
+            .item-course{
+                display: flex;
+                padding: 0;
+                margin-right: 0;
+
+                h5{
+                    margin-top: 4vh;
+                    margin-left: 16px;
+                }
+            }
+        }
+    
+    }
+
+    .h-sec1{
+        .h-sec1-right{
+            margin-top: 3vh;
+        }
+        
+    }
+
+    .footer{
+        padding: 3vh 0 7vh 0;
+        .item-footer{
+            margin: 0;
+            padding: 0;
+            ul{
+                li{
+                padding: 0;
+                margin: 0;
+            }
+            }
+            h4{
+             
+                padding: 2vh 0 1vh 0;
+            }
+        }
+    }
+
+}
+
+
+
+// end small mobile 
+
+@media screen and (min-width: 577px){
+
+}
+
+// end big mobile 
+
+@media screen and (min-width: 768px){
+
+}
+
+
+// end small tablet
+
+@media screen and (min-width: 992px){
+
+}
+
+
+// end desktop
+
+@media screen and (min-width: 1200px){
+
+}
+
+
+// end big desktop
+
+
+@media screen and (min-width: 1400px){
+
+}
+
+
+// end xxl

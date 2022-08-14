@@ -1,0 +1,62 @@
+@media screen and (max-width: 576px) {
+  h1 {
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  h2 {
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  h3 {
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  h4 {
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  h5 {
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  p {
+    margin: 4vh 0;
+    font-size: 14px;
+  }
+  .section-course .course {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .section-course .course .item-course {
+    display: flex;
+    padding: 0;
+    margin-right: 0;
+  }
+  .section-course .course .item-course h5 {
+    margin-top: 4vh;
+    margin-left: 16px;
+  }
+  .h-sec1 .h-sec1-right {
+    margin-top: 3vh;
+  }
+  .footer {
+    padding: 3vh 0 7vh 0;
+  }
+  .footer .item-footer {
+    margin: 0;
+    padding: 0;
+  }
+  .footer .item-footer ul li {
+    padding: 0;
+    margin: 0;
+  }
+  .footer .item-footer h4 {
+    padding: 2vh 0 1vh 0;
+  }
+}/*# sourceMappingURL=local.css.map */

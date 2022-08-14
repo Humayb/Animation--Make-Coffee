@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap);
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+li{
+    list-style-type: none;
+}
+h1{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    font-size: 56px;
+}
+
+h2{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h3{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    font-size: 40px;
+}
+h4{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h5{
+    font-family: Roboto-Bold;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p{
+    margin: 4vh 0;
+}
+
+.container-fluid{
+    max-width: 2000px;
+    padding: 0;
+}
+
+.btn-h{
+    background-color: #a4ee5d;
+    color: #1e3593;
+    font-weight: bold;
+
+    .i-buy{
+        background: #499416;
+        color: #feff97;
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+    }
+    &:hover{
+        background-color: #60bb25;
+        border-color: #60bb25;
+        color:#ffff97;
+    }
+}
+
+a{
+    color: #ededed;
+    text-decoration: none;
+    &:hover{
+        font-weight: bold;
+        color: #ffff97;
+    }
+}
