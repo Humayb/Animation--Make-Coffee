@@ -4,6 +4,7 @@ Hey all!
 
 What do you think about this style and general feeling? I need more feedback for you as well.
 
+![Smartphone_12_max_pro_and_three_ui_screen_mockups](https://user-images.githubusercontent.com/82465022/210129822-106b0cee-7f48-430d-b9cb-4ab2fb29e472.png)
 
 
 Thanks for staying active here.
