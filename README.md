@@ -1,7 +1,7 @@
 **Bitcoin responsive website - bootstrap 5.2**
 
 
-- [Demo Project](https://humayb.github.io/jewelry-website/)
+- [Demo Project](https://humayb.github.io/bitcoin-responsive-website-/)
 
 - UI Designer and Developer: Homa BahramParvar
 - Technologies Used - Html , CSS , BootStrap
